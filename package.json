@@ -1,0 +1,11 @@
+{
+  "name": "strictjson-js",
+  "version": "1.0.0",
+  "description": "Structured JSON output from LLMs with retry and schema validation",
+  "type": "module",
+  "main": "strictjson.js",
+  "dependencies": {
+    "zod": "^3.22.4",
+    "openai": "^4.0.0"
+  }
+}
