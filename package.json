@@ -1,11 +1,14 @@
 {
   "name": "strictjson-js",
   "version": "1.0.0",
-  "description": "Structured JSON output from LLMs with retry and schema validation",
+  "description": "Structured JSON output from LLMs with retry and merged schema+format spec",
   "type": "module",
-  "main": "strictjson.js",
+  "main": "src/index.js",
   "dependencies": {
+    "openai": "^4.0.0",
     "zod": "^3.22.4",
-    "openai": "^4.0.0"
-  }
+    "node-fetch": "^3.3.1"
+  },
+  "engines": { "node": ">=16" },
+  "license": "MIT"
 }
